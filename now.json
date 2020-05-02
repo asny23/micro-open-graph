@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "name": "micro-open-graph",
-  "builds": [
-    { "src": "*.js", "use": "@now/node" }
-  ],
+  "functions": {
+    "api/index.js": {
+      "memory": 1024
+    }
+  },
   "routes": [
-    { "src": "(.*)", "dest": "/index.js" }
+    { "src": "/api/.*", "dest": "/api/index.js" },
+    { "src": "/.*", "status": 404, "dest": "/404" }
   ],
   "regions": ["hnd1"]
 }
