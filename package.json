@@ -10,14 +10,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mxstbr/micro-open-graph.git"
+    "url": "git@github.com:asny23/micro-open-graph.git"
   },
   "author": "Max Stoiber <contact@mxstbr.com> (http://mxstbr.com/)",
+  "contributors": [
+    "yun asny23"
+  ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mxstbr/micro-open-graph/issues"
+    "url": "https://github.com/asny23/micro-open-graph/issues"
   },
-  "homepage": "https://github.com/mxstbr/micro-open-graph#readme",
+  "homepage": "https://github.com/asny23/micro-open-graph",
   "dependencies": {
     "got": "~9.6.0",
     "memory-cache": "~0.2.0",

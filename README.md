@@ -8,12 +8,12 @@ Running this microservice you won't need a backend solely to get some meta infor
 
 Your own `micro-open-graph` is one click away:
 
-[![Deploy to now](https://deploy.now.sh/static/button.svg)](https://deploy.now.sh/?repo=https://github.com/withspectrum/micro-open-graph)
+[![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/asny23/micro-open-graph/tree/master)
 
 You can also deploy with a single command from the terminal (assuming you have [`now`](https://now.sh) installed):
 
 ```sh
-now withspectrum/micro-open-graph
+now asny23/micro-open-graph
 ```
 
 ## Usage
@@ -45,8 +45,8 @@ We infer the data from more places than just the open graph meta tags, we also s
 ## Development
 
 ```sh
-git clone git@github.com:withspectrum/micro-open-graph.git
-npm run dev
+git clone git@github.com:asny23/micro-open-graph.git
+yarn run dev
 ```
 
 The server will then be listening at `localhost:3000`.
@@ -57,4 +57,8 @@ The `master` branch of this repository is what you will be deploying. To update 
 
 ## License
 
-Copyright (c) 2017 Maximilian Stoiber, licensed under the MIT license. See [LICENSE.md](LICENSE.md) for more information.
+Copyright (c) 2017 Maximilian Stoiber
+
+Copyright (c) 2020 yun asny23
+
+licensed under the MIT license. See [LICENSE.md](LICENSE.md) for more information.
