@@ -25,23 +25,22 @@
   },
   "homepage": "https://github.com/asny23/micro-open-graph",
   "dependencies": {
-    "got": "~9.6.0",
+    "got": "~11.7.0",
     "memory-cache": "~0.2.0",
-    "metascraper": "~5.4.2",
-    "metascraper-author": "~5.4.2",
-    "metascraper-date": "~5.4.2",
-    "metascraper-description": "~5.4.2",
-    "metascraper-image": "~5.4.2",
-    "metascraper-logo": "~5.4.2",
-    "metascraper-publisher": "~5.4.2",
-    "metascraper-title": "~5.4.2",
-    "metascraper-url": "~5.4.2",
-    "metascraper-logo-favicon": "~5.4.2",
-    "micro": "^9.3.2"
+    "metascraper": "~5.14.14",
+    "metascraper-author": "~5.14.14",
+    "metascraper-date": "~5.14.14",
+    "metascraper-description": "~5.14.14",
+    "metascraper-image": "~5.14.14",
+    "metascraper-logo": "~5.14.14",
+    "metascraper-publisher": "~5.14.14",
+    "metascraper-title": "~5.14.14",
+    "metascraper-url": "~5.14.14",
+    "metascraper-logo-favicon": "~5.14.14",
+    "micro": "^9.3.4"
   },
   "devDependencies": {
     "micro-dev": "^3.0.0",
-    "nodemon": "^1.18.10",
-    "standard": "^8.6.0"
+    "standard": "^14.3.4"
   }
 }
