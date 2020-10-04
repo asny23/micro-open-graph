@@ -9,7 +9,9 @@
   "scripts": {
     "start": "micro",
     "dev": "micro-dev",
-    "test": "standard"
+    "test": "standard",
+    "deploy": "vercel --prod",
+    "deploy-pre": "vercel"
   },
   "repository": {
     "type": "git",
