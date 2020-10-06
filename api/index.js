@@ -1,4 +1,4 @@
-const { parse } = require('url')
+const { URL } = require('url')
 const { send } = require('micro')
 const got = require('got');
 const cache = require('memory-cache')
@@ -17,12 +17,25 @@ const metascraper = require('metascraper')([
 
 
 const TWENTY_FOUR_HOURS = 86400000
+const ALLOWED_ORIGIN = []
+if(process.env.ALLOWED_ORIGIN) {
+  process.env.ALLOWED_ORIGIN.split(' ').forEach(i => ALLOWED_ORIGIN.push(i))
+}
 
 module.exports = async (req, res) => {
-  res.setHeader('Access-Control-Allow-Origin', '*')
+  if(ALLOWED_ORIGIN.length) {
+    if(ALLOWED_ORIGIN.includes(req.headers.origin)) {
+      res.setHeader('Access-Control-Allow-Origin', req.headers.origin)
+    } else {
+      return send(res, 400, { message: 'Origin not allowed.' })
+    }
+  } else {
+    res.setHeader('Access-Control-Allow-Origin', '*')
+  }
 
-  const { query: { url } } = parse(req.url, true)
-  if (!url) return send(res, 401, { message: 'Please supply an URL to be scraped in the url query parameter.' })
+  const { searchParams: params } = new URL(req.url, `http://${req.headers.host}`)
+  const url = params.get('url')
+  if (!url) return send(res, 400, { message: 'Please supply an URL to be scraped in the url query parameter.' })
 
   const cachedResult = cache.get(url)
   if (cachedResult) return send(res, 200, cachedResult)
