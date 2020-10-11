@@ -1,6 +1,6 @@
 const { URL } = require('url')
 const { send } = require('micro')
-const got = require('got');
+const got = require('got')
 const cache = require('memory-cache')
 
 const metascraper = require('metascraper')([
@@ -14,7 +14,6 @@ const metascraper = require('metascraper')([
   require('metascraper-url')(),
   require('metascraper-logo-favicon')()
 ])
-
 
 const TWENTY_FOUR_HOURS = 86400000
 const ALLOWED_ORIGIN = []
@@ -42,12 +41,12 @@ module.exports = async (req, res) => {
 
   let statusCode, data
   try {
-    const { body: html } = await got(url);
+    const { body: html } = await got(url)
     data = await metascraper({ url, html })
     statusCode = 200
   } catch (err) {
     console.log(err)
-    statusCode = 401
+    statusCode = 400
     data = { message: `Scraping the open graph data from "${url}" failed.`, suggestion: 'Make sure your URL is correct and the webpage has open graph data, meta tags or twitter card data.' }
   }
 
