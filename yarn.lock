@@ -23,10 +23,10 @@
     chalk "^2.0.0"
     js-tokens "^4.0.0"
 
-"@metascraper/helpers@^5.14.14":
-  version "5.14.14"
-  resolved "https://registry.yarnpkg.com/@metascraper/helpers/-/helpers-5.14.14.tgz#83054c5225cbfa5a0d537ff2db957434b99c17ae"
-  integrity sha512-sznekODvL+k5wTaU48Y8prdrPy/xTp3WxSAQrApBPeKPGEJTyfQWglkp+1W7xEDDrnJYzjOJDuq6EX3l9WYv1g==
+"@metascraper/helpers@^5.14.14", "@metascraper/helpers@^5.14.15":
+  version "5.14.15"
+  resolved "https://registry.yarnpkg.com/@metascraper/helpers/-/helpers-5.14.15.tgz#5ea8bfec522f1f72ace1a9b2870636aa12e9bf17"
+  integrity sha512-B44FzY7zErx4b5HipGD/H46XiirctVjWaOOEg7C6kykImKwM0xKP+kl9IjNEIL0zH7tjWnCl+kBGWblZqK5ZBg==
   dependencies:
     audio-extensions "0.0.0"
     chrono-node "2.1.8"
@@ -42,7 +42,7 @@
     lodash "~4.17.20"
     memoize-one "~5.1.1"
     mime-types "~2.1.27"
-    normalize-url "~5.2.0"
+    normalize-url "~5.3.0"
     smartquotes "~2.3.1"
     title "~3.4.2"
     truncate "~2.1.0"
@@ -2116,11 +2116,7 @@ locate-path@^3.0.0:
     p-locate "^3.0.0"
     path-exists "^3.0.0"
 
-lodash@^4.15.0:
-  version "4.17.4"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.4.tgz#78203a4d1c328ae1d86dca6460e369b57f4055ae"
-
-lodash@^4.17.14, lodash@^4.17.19, lodash@~4.17.20:
+lodash@^4.15.0, lodash@^4.17.14, lodash@^4.17.19, lodash@~4.17.20:
   version "4.17.20"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.20.tgz#b44a9b6297bcb698f1c51a3545a2b3b368d59c52"
   integrity sha512-PlhdFcillOINfeV7Ni6oF1TAEayyZBoZ8bcshTHqOYJYlrqzRK5hagpagky5o4HfCzzd1TRkXPMFq6cKk9rGmA==
@@ -2170,12 +2166,12 @@ memory-cache@~0.2.0:
   resolved "https://registry.yarnpkg.com/memory-cache/-/memory-cache-0.2.0.tgz#7890b01d52c00c8ebc9d533e1f8eb17e3034871a"
   integrity sha1-eJCwHVLADI68nVM+H46xfjA0hxo=
 
-metascraper-author@~5.14.14:
-  version "5.14.14"
-  resolved "https://registry.yarnpkg.com/metascraper-author/-/metascraper-author-5.14.14.tgz#8b086cec3bd06982e9424c5014d26f170911b463"
-  integrity sha512-F17I9b0RD97TvJDwfmDwNcrWxPT+KDZvKx26gDMduYWByegkdyzhWj8EBqo2OVffiOYd/KK0F71o1zY3i2oCEQ==
+metascraper-author@~5.14.15:
+  version "5.14.15"
+  resolved "https://registry.yarnpkg.com/metascraper-author/-/metascraper-author-5.14.15.tgz#db0e7955697e34c3f93cb195b91ac4ada3fa0c43"
+  integrity sha512-0hH6fOpCyyf/lxDmlMYbNbdBq3jEy84DDvgWaMl/tCM4nBglQTLWsPpK7XNOSyv0dNOeNxhzBv5sGdLBwgptFg==
   dependencies:
-    "@metascraper/helpers" "^5.14.14"
+    "@metascraper/helpers" "^5.14.15"
     lodash "~4.17.20"
 
 metascraper-date@~5.14.14:
@@ -2532,10 +2528,10 @@ normalize-url@^4.1.0:
   resolved "https://registry.yarnpkg.com/normalize-url/-/normalize-url-4.3.0.tgz#9c49e10fc1876aeb76dba88bf1b2b5d9fa57b2ee"
   integrity sha512-0NLtR71o4k6GLP+mr6Ty34c5GA6CMoEsncKJxvQd8NzPxaHRJNnb5gZE8R1XF4CPIS7QPHLJ74IFszwtNVAHVQ==
 
-normalize-url@~5.2.0:
-  version "5.2.0"
-  resolved "https://registry.yarnpkg.com/normalize-url/-/normalize-url-5.2.0.tgz#a7e3e6cd90965e262500cc8a417de7bcb0c7f5af"
-  integrity sha512-7V6qmM0KFWk+W7lwWSVZg16kDxa0/CUhtNpNuEwjpNnbKIdjWm+9TbBTfkH2smnFakLAbZ8sh9cQ5xhcLbkd0g==
+normalize-url@~5.3.0:
+  version "5.3.0"
+  resolved "https://registry.yarnpkg.com/normalize-url/-/normalize-url-5.3.0.tgz#8959b3cdaa295b61592c1f245dded34b117618dd"
+  integrity sha512-9/nOVLYYe/dO/eJeQUNaGUF4m4Z5E7cb9oNTKabH+bNf19mqj60txTcveQxL0GlcWLXCxkOu2/LwL8oW0idIDA==
 
 npm-bundled@^1.0.1:
   version "1.0.3"
