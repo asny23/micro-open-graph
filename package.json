@@ -37,7 +37,7 @@
     "metascraper-logo": "~5.14.14",
     "metascraper-publisher": "~5.14.14",
     "metascraper-title": "~5.14.14",
-    "metascraper-url": "~5.14.14",
+    "metascraper-url": "~5.14.15",
     "metascraper-logo-favicon": "~5.14.14",
     "micro": "^9.3.4"
   },
