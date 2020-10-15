@@ -23,10 +23,10 @@
     chalk "^2.0.0"
     js-tokens "^4.0.0"
 
-"@metascraper/helpers@^5.14.16":
-  version "5.14.16"
-  resolved "https://registry.yarnpkg.com/@metascraper/helpers/-/helpers-5.14.16.tgz#e817a84bd9eb2adc7945b90a243bd3d1235b32ee"
-  integrity sha512-7KZqUOUxDIklfARZzBBhzidEk15g/aZVmQSESUkee3Ws8STur0wcStcmTT3B+AirXkg3j1w0FzfE9w7r8mprZg==
+"@metascraper/helpers@^5.14.16", "@metascraper/helpers@^5.14.17":
+  version "5.14.17"
+  resolved "https://registry.yarnpkg.com/@metascraper/helpers/-/helpers-5.14.17.tgz#c90109fc1fff7f5d7ea44c4602965e8029939564"
+  integrity sha512-1dGTSXnrFZIsfIUOz0xQEU6ZK8Wnx6mCgyQkfxheiyspb0WVmThIyneVZT/c/Cxir61M9rjhL9KWm5MzPVOJHg==
   dependencies:
     audio-extensions "0.0.0"
     chrono-node "2.1.8"
@@ -2004,12 +2004,12 @@ memory-cache@~0.2.0:
   resolved "https://registry.yarnpkg.com/memory-cache/-/memory-cache-0.2.0.tgz#7890b01d52c00c8ebc9d533e1f8eb17e3034871a"
   integrity sha1-eJCwHVLADI68nVM+H46xfjA0hxo=
 
-metascraper-author@~5.14.16:
-  version "5.14.16"
-  resolved "https://registry.yarnpkg.com/metascraper-author/-/metascraper-author-5.14.16.tgz#db5d6d92b19efa81d7b0a7b4c878e5d55cea2907"
-  integrity sha512-m8PiEe2RJjw+RU3f18rX3fP+Zf9WydSADDW8kPc8AKjouDQI0lGG2cG2KIRfwibeR9kwbeTY4qqgoE8FLkjeFQ==
+metascraper-author@~5.14.17:
+  version "5.14.17"
+  resolved "https://registry.yarnpkg.com/metascraper-author/-/metascraper-author-5.14.17.tgz#20018e620a94599006e1a4a43198c2795dbc52b3"
+  integrity sha512-SdR5BN+fMnU71gKoPhymQPb/JlcTFV82svesUWCEJnybVvuvN9U8E7wyFN16sf2VQDdNjV7l5Uhe8C0EHhzbXA==
   dependencies:
-    "@metascraper/helpers" "^5.14.16"
+    "@metascraper/helpers" "^5.14.17"
     lodash "~4.17.20"
 
 metascraper-date@~5.14.16:
