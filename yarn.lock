@@ -23,10 +23,10 @@
     chalk "^2.0.0"
     js-tokens "^4.0.0"
 
-"@metascraper/helpers@^5.14.16":
-  version "5.14.16"
-  resolved "https://registry.yarnpkg.com/@metascraper/helpers/-/helpers-5.14.16.tgz#e817a84bd9eb2adc7945b90a243bd3d1235b32ee"
-  integrity sha512-7KZqUOUxDIklfARZzBBhzidEk15g/aZVmQSESUkee3Ws8STur0wcStcmTT3B+AirXkg3j1w0FzfE9w7r8mprZg==
+"@metascraper/helpers@^5.14.16", "@metascraper/helpers@^5.14.17":
+  version "5.14.17"
+  resolved "https://registry.yarnpkg.com/@metascraper/helpers/-/helpers-5.14.17.tgz#c90109fc1fff7f5d7ea44c4602965e8029939564"
+  integrity sha512-1dGTSXnrFZIsfIUOz0xQEU6ZK8Wnx6mCgyQkfxheiyspb0WVmThIyneVZT/c/Cxir61M9rjhL9KWm5MzPVOJHg==
   dependencies:
     audio-extensions "0.0.0"
     chrono-node "2.1.8"
@@ -2071,12 +2071,12 @@ metascraper-url@~5.14.16:
   dependencies:
     "@metascraper/helpers" "^5.14.16"
 
-metascraper@~5.14.16:
-  version "5.14.16"
-  resolved "https://registry.yarnpkg.com/metascraper/-/metascraper-5.14.16.tgz#ecc76b295675971ba50c184a8bc24e5d1b5fb2d2"
-  integrity sha512-aZrUTApVCbn9lfIMRNZhnmCDwDpYkknbJF0qqVWJs9NGo5BraMEHxL5us/Fz3qa9LGeeRmYVhz3GM6Mv9D1YCg==
+metascraper@~5.14.17:
+  version "5.14.17"
+  resolved "https://registry.yarnpkg.com/metascraper/-/metascraper-5.14.17.tgz#c06916e9e521e9c91fa5cef9a6fd10c7f3f81be1"
+  integrity sha512-LzBRoa/AbHgqu8w68lNqD2zLQD3C+Yf3mcw5vKh9IBehZiShAistRJhkZscAOoi137NURJE1RqFcsIWfGWfj0Q==
   dependencies:
-    "@metascraper/helpers" "^5.14.16"
+    "@metascraper/helpers" "^5.14.17"
     cheerio "~1.0.0-rc.3"
     cheerio-advanced-selectors "~2.0.1"
     lodash "~4.17.20"
