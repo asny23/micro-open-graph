@@ -1,6 +1,6 @@
 {
   "name": "micro-open-graph",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "description": "A tiny Node.js microservice to scrape open graph data with joy.",
   "engines": {
     "node": "12.x"
@@ -29,16 +29,16 @@
   "dependencies": {
     "got": "~11.7.0",
     "memory-cache": "~0.2.0",
-    "metascraper": "~5.14.14",
-    "metascraper-author": "~5.14.14",
-    "metascraper-date": "~5.14.14",
-    "metascraper-description": "~5.14.14",
-    "metascraper-image": "~5.14.14",
-    "metascraper-logo": "~5.14.14",
-    "metascraper-publisher": "~5.14.14",
-    "metascraper-title": "~5.14.14",
-    "metascraper-url": "~5.14.14",
-    "metascraper-logo-favicon": "~5.14.14",
+    "metascraper": "~5.14.16",
+    "metascraper-author": "~5.14.16",
+    "metascraper-date": "~5.14.16",
+    "metascraper-description": "~5.14.16",
+    "metascraper-image": "~5.14.16",
+    "metascraper-logo": "~5.14.16",
+    "metascraper-logo-favicon": "~5.14.16",
+    "metascraper-publisher": "~5.14.16",
+    "metascraper-title": "~5.14.16",
+    "metascraper-url": "~5.14.16",
     "micro": "^9.3.4"
   },
   "devDependencies": {
