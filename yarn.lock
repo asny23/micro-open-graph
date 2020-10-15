@@ -23,10 +23,10 @@
     chalk "^2.0.0"
     js-tokens "^4.0.0"
 
-"@metascraper/helpers@^5.14.16":
-  version "5.14.16"
-  resolved "https://registry.yarnpkg.com/@metascraper/helpers/-/helpers-5.14.16.tgz#e817a84bd9eb2adc7945b90a243bd3d1235b32ee"
-  integrity sha512-7KZqUOUxDIklfARZzBBhzidEk15g/aZVmQSESUkee3Ws8STur0wcStcmTT3B+AirXkg3j1w0FzfE9w7r8mprZg==
+"@metascraper/helpers@^5.14.16", "@metascraper/helpers@^5.14.17":
+  version "5.14.17"
+  resolved "https://registry.yarnpkg.com/@metascraper/helpers/-/helpers-5.14.17.tgz#c90109fc1fff7f5d7ea44c4602965e8029939564"
+  integrity sha512-1dGTSXnrFZIsfIUOz0xQEU6ZK8Wnx6mCgyQkfxheiyspb0WVmThIyneVZT/c/Cxir61M9rjhL9KWm5MzPVOJHg==
   dependencies:
     audio-extensions "0.0.0"
     chrono-node "2.1.8"
@@ -2064,12 +2064,12 @@ metascraper-title@~5.14.16:
     "@metascraper/helpers" "^5.14.16"
     lodash "~4.17.20"
 
-metascraper-url@~5.14.16:
-  version "5.14.16"
-  resolved "https://registry.yarnpkg.com/metascraper-url/-/metascraper-url-5.14.16.tgz#aa4689fad22e64b6c3036054cf2a1e206ec8dd23"
-  integrity sha512-gRaVqgV/nOhZM7pwLimncPcAJ66H7I76gbIYKFLh8KK+K4+DmFWjCs6D5j2yCylSASg/snuydpUD9+ESmvf7XQ==
+metascraper-url@~5.14.17:
+  version "5.14.17"
+  resolved "https://registry.yarnpkg.com/metascraper-url/-/metascraper-url-5.14.17.tgz#fb761b8cba28ab34cbb2bd2c168b5a8c70ce6cdb"
+  integrity sha512-CqdvzbKQB9htzIiEP0AAkUfSfmvpqskTPwnmuUS+VBq/2Q89o9IIAcqjR6ZmymCbJ4URWqOxcW6AKF1EA7GTlQ==
   dependencies:
-    "@metascraper/helpers" "^5.14.16"
+    "@metascraper/helpers" "^5.14.17"
 
 metascraper@~5.14.16:
   version "5.14.16"
