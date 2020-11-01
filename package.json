@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/asny23/micro-open-graph",
   "dependencies": {
-    "got": "~11.7.0",
+    "got": "~11.8.0",
     "memory-cache": "~0.2.0",
     "metascraper": "~5.14.17",
     "metascraper-author": "~5.14.17",
