@@ -1,18 +1,14 @@
 {
-  "version": 2,
   "functions": {
     "api/index.js": {
       "memory": 1024
     }
   },
-  "env": {
-    "ALLOWED_ORIGIN": ""
-  },
-  "rewrites": [
-    { "source": "/api/:match*", "destination": "/api/index.js" }
-  ],
+  "regions": ["hnd1"],
   "redirects": [
     { "source": "/", "destination": "/404", "statusCode": 404 }
   ],
-  "regions": ["hnd1"]
+  "rewrites": [
+    { "source": "/api/:match*", "destination": "/api/index.js" }
+  ]
 }
