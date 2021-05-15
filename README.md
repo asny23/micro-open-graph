@@ -45,15 +45,12 @@ And you will get the parsed data in the following format:
 We infer the data from more places than just the open graph meta tags, we also support twitter meta tags and fallback to standard HTML tags like e.g. the `title` tag if no open graph data was specified. Results are cached in memory for 24 hours, which means calling this with the same URL repeatedly won't have a large impact on your server!
 
 ## CORS
-You can set origin in `Access-Control-Allow-Origin` response header, edit `vercel.json`.
+You can set origin in `Access-Control-Allow-Origin` response header.
+Set environment variable `ALLOWED_ORIGIN` with [RegExp](https://developer.mozilla.org/ja/docs/Web/JavaScript/Guide/Regular_Expressions) format.
 To handle multiple origins, separate with a space.
 
-```JSON
-  ...
-  "env": {
-    "ALLOWED_ORIGIN": "http://some-origin.sample https://other-origin.sample"
-  },
-  ...
+```sh
+export ALLOWED_ORIGIN='https://some\.origin https://other-[a-z]+\.origin'
 ```
 
 if `ALLOWED_ORIGIN` is empty, `Access-Control-Allow-Origin` will be `*`.
@@ -62,7 +59,7 @@ if `ALLOWED_ORIGIN` is empty, `Access-Control-Allow-Origin` will be `*`.
 
 ```sh
 git clone git@github.com:asny23/micro-open-graph.git
-yarn run dev
+npm run dev
 ```
 
 The server will then be listening at `localhost:3000`.

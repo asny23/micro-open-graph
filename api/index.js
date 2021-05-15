@@ -18,12 +18,13 @@ const metascraper = require('metascraper')([
 const TWENTY_FOUR_HOURS = 86400000
 const ALLOWED_ORIGIN = []
 if(process.env.ALLOWED_ORIGIN) {
-  process.env.ALLOWED_ORIGIN.split(' ').forEach(i => ALLOWED_ORIGIN.push(i))
+  process.env.ALLOWED_ORIGIN.split(' ').forEach(ao => ALLOWED_ORIGIN.push(new RegExp(ao)))
 }
 
 module.exports = async (req, res) => {
   if(ALLOWED_ORIGIN.length) {
-    if(ALLOWED_ORIGIN.includes(req.headers.origin)) {
+    const reducer = (accumulator, currentValue) => accumulator || currentValue.test(req.headers.origin)
+    if(ALLOWED_ORIGIN.reduce(reducer, false)) {
       res.setHeader('Access-Control-Allow-Origin', req.headers.origin)
     } else {
       return send(res, 400, { message: 'Origin not allowed.' })
