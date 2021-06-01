@@ -30,7 +30,7 @@
     "got": "~11.8.2",
     "memory-cache": "~0.2.0",
     "metascraper": "~5.21.7",
-    "metascraper-author": "~5.21.7",
+    "metascraper-author": "~5.22.0",
     "metascraper-date": "~5.21.7",
     "metascraper-description": "~5.21.7",
     "metascraper-image": "~5.21.7",
